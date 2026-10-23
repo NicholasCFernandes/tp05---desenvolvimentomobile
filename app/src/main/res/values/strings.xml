@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Filmes Favoritos</string>
+
+    <!-- Lista -->
+    <string name="titulo_lista">Meus Filmes Favoritos</string>
+    <string name="texto_lista_vazia">Nenhum filme ainda. Toque em + para adicionar.</string>
+    <string name="desc_adicionar_filme">Adicionar filme</string>
+    <string name="desc_foto_filme">Pôster do filme</string>
+    <string name="desc_icone_lista_vazia">Ícone de filme</string>
+    <string name="formato_nota">%1$s / 5</string>
+
+    <!-- Formulário -->
+    <string name="titulo_novo_filme">Novo filme</string>
+    <string name="titulo_editar_filme">Editar filme</string>
+    <string name="desc_preview_foto">Pré-visualização da foto do filme</string>
+    <string name="hint_nome">Nome do filme</string>
+    <string name="label_nota">Nota</string>
+    <string name="hint_url">URL da foto</string>
+    <string name="helper_url">Cole a URL de uma imagem (opcional)</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="acao_excluir">Excluir</string>
+
+    <!-- Erros de validação -->
+    <string name="erro_nome_obrigatorio">Informe o nome do filme</string>
+    <string name="erro_url_invalida">Informe uma URL válida, começando com http:// ou https://</string>
+
+    <!-- Mensagens -->
+    <string name="msg_filme_salvo">Filme salvo</string>
+    <string name="msg_filme_excluido">Filme excluído</string>
+
+    <!-- Diálogo de confirmação -->
+    <string name="dialogo_excluir_titulo">Excluir filme</string>
+    <string name="dialogo_excluir_mensagem">Excluir \"%1$s\"? Esta ação não pode ser desfeita.</string>
+    <string name="dialogo_excluir_confirmar">Excluir</string>
+    <string name="dialogo_cancelar">Cancelar</string>
+</resources>

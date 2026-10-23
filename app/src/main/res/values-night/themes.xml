@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema escuro: mesmos nomes do tema claro, o Android escolhe pelo modo do sistema -->
+    <style name="Base.Theme.FilmesFavoritos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vermelho_noite</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/vermelho_container_noite</item>
+        <item name="colorOnPrimaryContainer">@color/vermelho_container</item>
+        <item name="colorSecondary">@color/dourado</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/superficie_escura</item>
+        <item name="colorOnSurface">@color/texto_primario_escuro</item>
+        <item name="android:colorBackground">@color/fundo_escuro</item>
+        <item name="colorOnBackground">@color/texto_primario_escuro</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/vermelho_cortina_escuro</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+</resources>

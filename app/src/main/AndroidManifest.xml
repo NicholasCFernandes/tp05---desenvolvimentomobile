@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Necessária para o Coil baixar as fotos dos filmes por URL -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FilmesFavoritos">
+
+        <activity
+            android:name=".ui.lista.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- parentActivityName faz o botão "voltar" da toolbar apontar para a lista -->
+        <activity
+            android:name=".ui.formulario.FormularioFilmeActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.lista.MainActivity" />
+    </application>
+
+</manifest>

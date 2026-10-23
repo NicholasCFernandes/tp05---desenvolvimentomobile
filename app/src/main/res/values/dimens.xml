@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Espaçamentos (consistência visual: heurística 4 de Nielsen) -->
+    <dimen name="espaco_pequeno">8dp</dimen>
+    <dimen name="espaco_medio">16dp</dimen>
+    <dimen name="espaco_grande">24dp</dimen>
+
+    <!-- Card, conforme o slide "CARDS" da aula: margem 8dp, raio 8dp, elevação 8dp -->
+    <dimen name="margem_card">8dp</dimen>
+    <dimen name="raio_card">8dp</dimen>
+    <dimen name="elevacao_card">8dp</dimen>
+
+    <!-- Lista -->
+    <dimen name="padding_inferior_lista">88dp</dimen>
+    <dimen name="tamanho_icone_vazio">96dp</dimen>
+
+    <!-- Formulário -->
+    <dimen name="largura_preview">160dp</dimen>
+    <dimen name="altura_preview">240dp</dimen>
+
+    <!-- Acessibilidade: área mínima de toque -->
+    <dimen name="area_toque_minima">48dp</dimen>
+
+    <!-- Textos -->
+    <dimen name="texto_nome_filme">18sp</dimen>
+</resources>

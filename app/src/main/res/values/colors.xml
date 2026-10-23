@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta "cinema": vermelho de cortina, dourado das estrelas e fundos neutros -->
+    <color name="vermelho_cortina">#FF7A0C1E</color>
+    <color name="vermelho_cortina_escuro">#FF52000F</color>
+    <color name="vermelho_container">#FFFFD9DC</color>
+    <color name="vermelho_noite">#FFD32F4A</color>
+    <color name="vermelho_container_noite">#FF5A0816</color>
+    <color name="dourado">#FFF5B400</color>
+
+    <!-- Tema claro -->
+    <color name="fundo_claro">#FFFAF7F5</color>
+    <color name="superficie_clara">#FFFFFFFF</color>
+    <color name="texto_primario">#FF212121</color>
+
+    <!-- Tema escuro -->
+    <color name="fundo_escuro">#FF121212</color>
+    <color name="superficie_escura">#FF1E1E1E</color>
+    <color name="texto_primario_escuro">#FFECECEC</color>
+
+    <!-- Neutros usados em placeholders e estrelas vazias -->
+    <color name="cinza_estrela_vazia">#FFBDBDBD</color>
+    <color name="cinza_placeholder">#FFBDBDBD</color>
+    <color name="cinza_placeholder_icone">#FF757575</color>
+</resources>

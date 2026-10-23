@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema claro. O tema escuro está em res/values-night/themes.xml. -->
+    <style name="Base.Theme.FilmesFavoritos" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vermelho_cortina</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/vermelho_container</item>
+        <item name="colorOnPrimaryContainer">@color/vermelho_cortina_escuro</item>
+        <item name="colorSecondary">@color/dourado</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSurface">@color/superficie_clara</item>
+        <item name="colorOnSurface">@color/texto_primario</item>
+        <item name="android:colorBackground">@color/fundo_claro</item>
+        <item name="colorOnBackground">@color/texto_primario</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/vermelho_cortina_escuro</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <style name="Theme.FilmesFavoritos" parent="Base.Theme.FilmesFavoritos" />
+
+    <!-- Cantos arredondados das fotos (ShapeableImageView) -->
+    <style name="ImagemArredondada" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/raio_card</item>
+    </style>
+</resources>
